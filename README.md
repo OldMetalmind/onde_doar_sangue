@@ -14,3 +14,8 @@ Fonte: [http://dador.pt/onde-dar/lista-de-recolhas](http://dador.pt/onde-dar/lis
 
 build: `docker build -t onde_dar_sangue --build-arg YOUR_ENV=production`
 run: `docker run -p 8080:8080 onde_dar_sangue`
+
+## Endpoint
+
+`/l`:
+Retorna JSON de todas as intervenções actuais
