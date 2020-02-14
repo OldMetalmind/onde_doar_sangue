@@ -2,7 +2,7 @@
 
 Recolha de informação onde doar sangue e torna-la de forma mais acessível
 
-Fonte: [http://dador.pt/onde-dar/lista-de-recolhas](http://dador.pt/onde-dar/lista-de-recolhas
+Fonte: [http://dador.pt/onde-dar/lista-de-recolhas](http://dador.pt/onde-dar/lista-de-recolhas)
 
 ## Executar o projecto localmente
 
