@@ -4,7 +4,7 @@ Recolha de informação onde doar sangue e torna-la de forma mais acessível
 
 Fonte: [http://dador.pt/onde-dar/lista-de-recolhas](http://dador.pt/onde-dar/lista-de-recolhas)
 
-## Dependencias:
+## Dependencias
 
 - Instalar [https://python-poetry.org/](https://python-poetry.org/)
 
@@ -17,7 +17,7 @@ Fonte: [http://dador.pt/onde-dar/lista-de-recolhas](http://dador.pt/onde-dar/lis
 
 ## Docker
 
-build: `docker build -t onde_dar_sangue --build-arg YOUR_ENV=production`
+build: `docker build -t onde_dar_sangue .`
 
 run: `docker run -p 8080:8080 onde_dar_sangue`
 
