@@ -1,6 +1,6 @@
-# Onde Dar Sangue 💉
+# Onde Doar Sangue 💉
 
-Recolha de informação onde doar sangue e torná-la mais acessível ao público, com a magia dos smartphones!
+Recolha de informação onde doar sangue e torná-la mais acessível ao público.
 
 ## O que é? 🧐
 
@@ -8,7 +8,7 @@ Esta é uma API feita com base no site [dador.pt](http://dador.pt/onde-dar/lista
 Com a sua ajuda, podemos obter informação de todos os locais onde é possível doar sangue em Portugal, para uma causa maior.
 Porque não experimentar?
 
-## Dependencias 📝
+## Dependências 📝
 
 - **Instalar [o python poetry](https://python-poetry.org/)**
 
