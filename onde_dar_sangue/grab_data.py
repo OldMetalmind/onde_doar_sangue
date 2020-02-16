@@ -1,4 +1,5 @@
 # Core
+import re
 import json
 import logging
 import logging.config
@@ -7,10 +8,8 @@ import logging.config
 import requests
 from bs4 import BeautifulSoup
 
-
 logging.config.fileConfig('logging.conf')
 logger = logging.getLogger('console')
-
 
 class GrabData:
     def __init__(self, endpoint):
@@ -33,6 +32,6 @@ class GrabData:
             need
         '''
         script_with_data = all_scripts[22]
-        raw_data = script_with_data.get_text()[2638:22314]
-        data = json.loads(raw_data)
+        raw_data = re.findall(r"{\"data\":.*]}}", str(script_with_data))
+        data = json.loads(raw_data[0])
         return data
